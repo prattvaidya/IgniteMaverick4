@@ -1,0 +1,53 @@
+{
+  "name": "IgniteMaverick4",
+  "displayName": "IgniteMaverick4",
+  "expo": {
+    "name": "IgniteMaverick4",
+    "slug": "IgniteMaverick4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon-all.png",
+    "splash": {
+      "image": "./assets/images/splash-logo-all.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191015"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "jsEngine": "hermes",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "icon": "./assets/images/app-icon-android-legacy.png",
+      "package": "ttt.prattvaidya.ignitemaverick",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+      },
+      "splash": {
+        "image": "./assets/images/splash-logo-android-universal.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#191015"
+      }
+    },
+    "ios": {
+      "icon": "./assets/images/app-icon-ios.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "ttt.prattvaidya.ignitemaverick",
+      "splash": {
+        "image": "./assets/images/splash-logo-ios-mobile.png",
+        "tabletImage": "./assets/images/splash-logo-ios-tablet.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#191015"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app-icon-web-favicon.png",
+      "splash": {
+        "image": "./assets/images/splash-logo-web.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#191015"
+      }
+    }
+  }
+}
